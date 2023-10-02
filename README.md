@@ -30,6 +30,7 @@ Background correlates to the time of day at the searched location.
 * npm
 * Webpack
 * Weather API
+* ESLint + Airbnb style guide
 
 ### Sources
 
