@@ -12,7 +12,7 @@ function handleForm() {
     if (location === '') {
       alert('Please enter a location.');
     } else {
-      const url = `${BASE_URL}/forecast.json?key=${API_KEY}&q=${location}&days=7`;
+      const url = `${BASE_URL}/forecast.json?key=${API_KEY}&q=${location}&days=3`;
       getCurrentInfo(url, location);
       getForecastInfo(url, location);
     }

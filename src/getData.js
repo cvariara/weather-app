@@ -42,7 +42,7 @@ function getForecastInfo(url, locationVal) {
   forecasts.innerHTML = '';
   getWeather(url)
     .then((forecast) => {
-      for (let i = 0; i <= 3; i++) {
+      for (let i = 0; i < 3; i++) {
         const { sunrise } = forecast.forecast.forecastday[i].astro;
         const { sunset } = forecast.forecast.forecastday[i].astro;
         const { date } = forecast.forecast.forecastday[i];
